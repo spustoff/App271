@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BuildingModel" representedClassName="BuildingModel" syncable="YES" codeGenerationType="class">
+        <attribute name="itemID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="projBaseEndDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="projBaseStartDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="projBudget" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="projProgress" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="projTitle" optional="YES" attributeType="String"/>
+        <attribute name="projWallsEndDAte" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="projWallsStartDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="selectedProje" optional="YES" attributeType="String"/>
+    </entity>
+</model>
