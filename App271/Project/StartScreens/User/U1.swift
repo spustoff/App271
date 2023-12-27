@@ -66,7 +66,7 @@ struct U1: View {
                             .font(.system(size: 15, weight: .medium))
                             .frame(maxWidth: .infinity)
                             .frame(height: 50)
-                            .background(RoundedRectangle(cornerRadius: 30).fill(Color("prim")))
+                            .background(RoundedRectangle(cornerRadius: 30).fill(Color(.black)))
                             .padding()
                     })
                 }
